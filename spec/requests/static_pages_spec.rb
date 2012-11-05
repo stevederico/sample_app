@@ -54,7 +54,7 @@ describe "Static pages" do
      it "should have the title 'Contact'" do
        visit '/static_pages/contact'
        page.should have_selector('title',
-                     :text => "#{base_title}  | Contact")
+                     :text => "#{base_title} | Contact")
      end
    end
   
